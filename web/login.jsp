@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>
         <div>ENTER YOUR LOGIN & PASSWORD</div><br>
         <form action="j_security_check" method="POST">
             <div>USER <input type="text" name="j_username" value="" /></div><br>
