@@ -2,9 +2,8 @@
 <%@ page pageEncoding="UTF-8" %>
 
 <table border="0">
-       
 
-<img src="img/iucesmag.jpg"  
+ <img src="img/iucesmag.jpg"  
     <tbody>
         <tr>
             <td> 

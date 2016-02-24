@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+         <link href="css/estilo.css" rel="stylesheet">
+               <title>JSP Page</title>
     </head>
     <body>
          <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>

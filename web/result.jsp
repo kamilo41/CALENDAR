@@ -9,7 +9,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <link href="css/estilo.css" rel="stylesheet">
         <title>WHICH MONTH DO YOU WENTO</title>
     </head>
     <body>
