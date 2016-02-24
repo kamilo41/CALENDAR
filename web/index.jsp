@@ -13,23 +13,23 @@
                <title>JSP Page</title>
     </head>
     <body>
-         <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>
+         
         <form action="ControllerServlet" method="POST">
-       
+        <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>
              <H2>WHICH MONTH DO YOU WENTO</H2> 
              TO SEE? <select name="meses"> 
-                 <option value="Enero">Enero</option>
-                 <option value="Febrero">Febrero</option>
-                 <option value="Marzo">Marzo</option>
-                 <option value="Abril">Abril</option>
-                 <option value="Mayo">Mayo</option>
-                 <option value="Junio">Junio</option>
-                 <option value="Julio">Julio</option>
-                 <option value="Agosto">Agosto</option>
-                 <option value="Septiembre">Septiembre</option>
-                 <option value="Octubre">Octubre</option>
-                 <option value="Noviembre">Noviembre</option>
-                 <option value="Diciembre">Diciembre</option> 
+                 <option value="ENERO">Enero</option>
+                 <option value="FEBRERO">Febrero</option>
+                 <option value="MARZO">Marzo</option>
+                 <option value="ABRIL">Abril</option>
+                 <option value="MAYO">Mayo</option>
+                 <option value="JUNIO">Junio</option>
+                 <option value="JULIO">Julio</option>
+                 <option value="AGOSSTO">Agosto</option>
+                 <option value="SEPTIEMBRE">Septiembre</option>
+                 <option value="OCTUBRE">Octubre</option>
+                 <option value="NOVIEMBRE">Noviembre</option>
+                 <option value="DICIEMBRE">Diciembre</option> 
             
              </select><BR><BR>
             

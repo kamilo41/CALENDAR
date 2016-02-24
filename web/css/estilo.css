@@ -25,13 +25,14 @@ input,select{
 
 form{
     display: block;
-    width: 700px;
+    width: 900px;
     border: 2px black solid;
     border-radius: 15px;
     box-shadow: 3px 3px 3px black;
     background-color: white;
     padding: 10px;
     margin: auto;
+    text-align: center;
 }
 
 h2{
@@ -40,6 +41,10 @@ h2{
     color: white;
 }
 
+h4{
+    text-align: center;
+    color: black;
+}
 #chkiv,#chkvc,#optcom1,#optcom2{
     width: auto;
 }
