@@ -91,7 +91,10 @@
             %>
 
         </c:when>
-        <c:when test="${scoresData.meses == 'ABRIL'||scoresData.meses == 'JUNIO'||scoresData.meses == 'SEPTIEMBRE'||scoresData.meses == 'NOVIEMBRE'}">
+        <c:when test="${scoresData.meses ==   'ABRIL'
+                        ||scoresData.meses == 'JUNIO'
+                        ||scoresData.meses == 'SEPTIEMBRE'
+                        ||scoresData.meses == 'NOVIEMBRE'}">
             <%
 
             while (count<=30)
