@@ -15,7 +15,7 @@
     <body>
          
         <form action="ControllerServlet" method="POST">
-        <%@ include file="WEB-INF/jspf/banner.jspf" %><br><br>
+        <%@ include file="WEB-INF/jspf/banner.jspf" %><br>
              <H2>WHICH MONTH DO YOU WENTO</H2> 
              TO SEE? <select name="meses"> 
                  <option value="ENERO">Enero</option>

@@ -5,6 +5,9 @@
     <role-name>role1</role-name>
     <group-name>admin</group-name>
   </security-role-mapping>
+  <service-ref>
+    <service-ref-name>service_ref1</service-ref-name>
+  </service-ref>
   <class-loader delegate="true"/>
   <jsp-config>
     <property name="keepgenerated" value="true">
